@@ -10,9 +10,11 @@
 
 <body>
     <div class="page-container">
-        <div class="header">Хэдер</div>
+        <header class="header">
+            <h1>Хэдер</h1>
+        </header>
 
-        <div class="nav">
+        <nav class="nav">
             <ul class="nav-list">
                 <li class="nav-item"><a class="nav-link" href="../index.html">Главная</a></li>
                 <li class="nav-item"><a class="nav-link" href="news.html">Новости</a></li>
@@ -20,32 +22,37 @@
                 <li class="nav-item"><a class="nav-link" href="goods.html">Товары</a></li>
                 <li class="nav-item"><a class="nav-link" href="contacts.html">Контакты</a></li>
             </ul>
-        </div>
+        </nav>
 
-        <div class="page-container">
-            <div class="content">
-                <div class="profile-header">
-                    <div class="about-me">
-                        <img src="../image/goods2.jpg" alt="Не крутой" width="600" height="400">
-                        <h3 class="profile-title">Не крутой</h3>
-                        <p class="profile-group">Цена: 1000 руб.</p>
-                    </div>
+        <main class="content">
+            <section class="products-section">
+                <h2 class="section-title">Наши товары</h2>
+                <div class="products-grid">
+                    <article class="product-card">
+                        <img src="../image/goods2.jpg" alt="Не крутой" class="product-image">
+                        <h3 class="product-name">Не крутой</h3>
+                        <p class="product-price">Цена: 1000 руб.</p>
+                    </article>
 
-                    <div class="about-me">
-                        <img src="../image/goods1.jpg" alt="Круто" width="600" height="400">
-                        <h3 class="profile-title">Крутой</h3>
-                        <p class="profile-group">Цена: 2000 руб.</p>
-                    </div>
-                    <div class="about-me">
-                        <img src="../image/goods3.jpg" alt="Очень крутой" width="600" height="400">
-                        <h3 class="profile-title">Очень крутой</h3>
-                        <p class="profile-group">Цена: 3000 руб.</p>
-                    </div>
+                    <article class="product-card">
+                        <img src="../image/goods1.jpg" alt="Круто" class="product-image">
+                        <h3 class="product-name">Крутой</h3>
+                        <p class="product-price">Цена: 2000 руб.</p>
+                    </article>
+
+                    <article class="product-card">
+                        <img src="../image/goods3.jpg" alt="Очень крутой" class="product-image">
+                        <h3 class="product-name">Очень крутой</h3>
+                        <p class="product-price">Цена: 3000 руб.</p>
+                    </article>
                 </div>
-            </div>
-        </div>
+            </section>
+        </main>
 
-        <div class="footer">Футер</div>
+        <footer class="footer">
+            <p>Футер</p>
+        </footer>
+    </div>
 </body>
 
 </html>

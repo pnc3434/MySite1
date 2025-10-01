@@ -10,9 +10,11 @@
 
 <body>
     <div class="page-container">
-        <div class="header">Хэдер</div>
+        <header class="header">
+            <h1>Хэдер</h1>
+        </header>
 
-        <div class="nav">
+        <nav class="nav">
             <ul class="nav-list">
                 <li class="nav-item"><a class="nav-link" href="index.html">Главная</a></li>
                 <li class="nav-item"><a class="nav-link" href="pages/news.html">Новости</a></li>
@@ -20,45 +22,53 @@
                 <li class="nav-item"><a class="nav-link" href="pages/goods.html">Товары</a></li>
                 <li class="nav-item"><a class="nav-link" href="pages/contacts.html">Контакты</a></li>
             </ul>
-        </div>
+        </nav>
 
-        <div class="content">
-            <div class="profile-header">
+        <main class="content">
+            <article class="profile-header">
                 <h1 class="profile-title">Информация об авторе</h1>
                 <img class="profile-photo" src="image/prikol.jpg" alt="Фото автора">
                 <h2 class="profile-name">Жуков Максим Максимович</h2>
                 <p class="profile-group">ЭФБО-14-24</p>
-            </div>
+            </article>
 
-            <div class="about-me">
-                <p>Обо мне: Я родился в Самаре в 2006 году, далее переехал в Москву и по сей день учусь тут.</p>
-            </div>
+            <section class="about-me">
+                <h2>Обо мне</h2>
+                <p>Я родился в Самаре в 2006 году, далее переехал в Москву и по сей день учусь тут.</p>
+            </section>
 
-            <div class="skills-container">
-                <div class="skill-tag">Навык 1</div>
-                <div class="skill-tag">Навык 2</div>
-                <div class="skill-tag">Навык 3</div>
-                <div class="skill-tag">Навык 4</div>
-            </div>
+            <section class="skills-container">
+                <h2>Мои навыки</h2>
+                <div class="skills-grid">
+                    <div class="skill-tag">Навык 1</div>
+                    <div class="skill-tag">Навык 2</div>
+                    <div class="skill-tag">Навык 3</div>
+                    <div class="skill-tag">Навык 4</div>
+                </div>
+            </section>
 
-            <div class="experience-section">
+            <section class="experience-section">
                 <h2 class="section-title">Мой опыт работы</h2>
-                <div class="experience-card">
-                    <h3 class="experience-title">Опыт 1</h3>
-                    <p class="experience-desc">Работал крутым.</p>
+                <div class="experience-grid">
+                    <article class="experience-card">
+                        <h3 class="experience-title">Опыт 1</h3>
+                        <p class="experience-desc">Работал крутым.</p>
+                    </article>
+                    <article class="experience-card">
+                        <h3 class="experience-title">Опыт 2</h3>
+                        <p class="experience-desc">Работал классным.</p>
+                    </article>
+                    <article class="experience-card">
+                        <h3 class="experience-title">Опыт 3</h3>
+                        <p class="experience-desc">Работал четким.</p>
+                    </article>
                 </div>
-                <div class="experience-card">
-                    <h3 class="experience-title">Опыт 2</h3>
-                    <p class="experience-desc">Работал классным.</p>
-                </div>
-                <div class="experience-card">
-                    <h3 class="experience-title">Опыт 3</h3>
-                    <p class="experience-desc">Работал четким.</p>
-                </div>
-            </div>
-        </div>
+            </section>
+        </main>
 
-        <div class="footer">Футер</div>
+        <footer class="footer">
+            <p>Футер</p>
+        </footer>
     </div>
 </body>
 

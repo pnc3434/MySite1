@@ -10,9 +10,11 @@
 
 <body>
     <div class="page-container">
-        <div class="header">Хэдер</div>
+        <header class="header">
+            <h1>Хэдер</h1>
+        </header>
 
-        <div class="nav">
+        <nav class="nav">
             <ul class="nav-list">
                 <li class="nav-item"><a class="nav-link" href="../index.html">Главная</a></li>
                 <li class="nav-item"><a class="nav-link" href="news.html">Новости</a></li>
@@ -20,31 +22,39 @@
                 <li class="nav-item"><a class="nav-link" href="goods.html">Товары</a></li>
                 <li class="nav-item"><a class="nav-link" href="contacts.html">Контакты</a></li>
             </ul>
-        </div>
+        </nav>
 
-        <div class="page-container">
-            <div class="content">
-                <div class="profile-header">
-                    <div class="about-me">
-                        <h1 class="profile-title">Новость 1</h1>
-                        <h2 class="profile-name">01.02.2025</h2>
-                        <p class="profile-group">Первый день без казино</p>
+        <main class="content">
+            <section class="news-container">
+                <article class="news-card">
+                    <h2 class="news-title">Новость 1</h2>
+                    <div class="news-meta">
+                        <span class="news-date">01.02.2025</span>
                     </div>
-                    <div class="about-me">
-                        <h1 class="profile-title">Новость 2</h1>
-                        <h2 class="profile-name">01.02.2025</h2>
-                        <p class="profile-group">Второй день без ставок</p>
-                    </div>
-                    <div class="about-me">
-                        <h1 class="profile-title">Новость 3</h1>
-                        <h2 class="profile-name">01.02.2025</h2>
-                        <p class="profile-group">Третий день без ставок</p>
-                    </div>
-                </div>
-            </div>
-        </div>
+                    <p class="news-text">Первый день без казино</p>
+                </article>
 
-        <div class="footer">Футер</div>
+                <article class="news-card">
+                    <h2 class="news-title">Новость 2</h2>
+                    <div class="news-meta">
+                        <span class="news-date">01.02.2025</span>
+                    </div>
+                    <p class="news-text">Второй день без ставок</p>
+                </article>
+
+                <article class="news-card">
+                    <h2 class="news-title">Новость 3</h2>
+                    <div class="news-meta">
+                        <span class="news-date">01.02.2025</span>
+                    </div>
+                    <p class="news-text">Третий день без ставок</p>
+                </article>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <p>Футер</p>
+        </footer>
     </div>
 </body>
 

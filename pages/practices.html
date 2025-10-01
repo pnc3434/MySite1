@@ -10,9 +10,11 @@
 
 <body>
     <div class="page-container">
-        <div class="header">Хэдер</div>
+        <header class="header">
+            <h1>Хэдер</h1>
+        </header>
 
-        <div class="nav">
+        <nav class="nav">
             <ul class="nav-list">
                 <li class="nav-item"><a class="nav-link" href="../index.html">Главная</a></li>
                 <li class="nav-item"><a class="nav-link" href="news.html">Новости</a></li>
@@ -20,23 +22,27 @@
                 <li class="nav-item"><a class="nav-link" href="goods.html">Товары</a></li>
                 <li class="nav-item"><a class="nav-link" href="contacts.html">Контакты</a></li>
             </ul>
-        </div>
+        </nav>
 
-        <div class="page-container">
-            <div class="content">
-                <div class="profile-header">
-                    <div class="about-me">
-                        <img src="../image/dota.jpg" width="600" height="250">
-                        <p class="profile-name">Дата публикации: 24.09.2025 12:00</p>
-                        <p class="profile-name">Жуков Максим</p>
-                        <p class="profile-group">Я не умею играть в компьютерные игры, потому что я не ноулайфер.
-                        </p>
+        <main class="content">
+            <section class="news-container">
+                <article class="news-card">
+                    <img src="../image/dota.jpg" alt="Dota 2" class="news-image">
+                    <div class="news-meta">
+                        <span class="news-date">Дата публикации: 24.09.2025 12:00</span>
+                        <span class="news-author">Автор: Жуков Максим</span>
                     </div>
-                </div>
-            </div>
-        </div>
-        <div class="footer">Футер</div>
+                    <div class="news-content">
+                        <p class="news-text">Я не умею играть в компьютерные игры, потому что я не ноулайфер.</p>
+                    </div>
+                </article>
+            </section>
+        </main>
 
+        <footer class="footer">
+            <p>Футер</p>
+        </footer>
+    </div>
 </body>
 
 </html>

@@ -10,9 +10,11 @@
 
 <body>
     <div class="page-container">
-        <div class="header">Хэдер</div>
+        <header class="header">
+            <h1>Хэдер</h1>
+        </header>
 
-        <div class="nav">
+        <nav class="nav">
             <ul class="nav-list">
                 <li class="nav-item"><a class="nav-link" href="../index.html">Главная</a></li>
                 <li class="nav-item"><a class="nav-link" href="news.html">Новости</a></li>
@@ -20,24 +22,25 @@
                 <li class="nav-item"><a class="nav-link" href="goods.html">Товары</a></li>
                 <li class="nav-item"><a class="nav-link" href="contacts.html">Контакты</a></li>
             </ul>
-        </div>
+        </nav>
 
-        <div class="profile-title">
-
-            <h2 class="profile-title">Контакты</h2>
-
-            <div class="contact-info">
-                <p class="profile-group">Адрес электронной почты: zhukovmaksik@mail.ru</p>
-                <p class="profile-group">Адрес: г. Москва, ул. Гагарина</p>
-                <div class="profile-header">
-
-                    <button class="skill-tag" onclick="alert('Ошибка')">Позвоните мне</button>
+        <main class="content">
+            <section class="contacts-container">
+                <h2 class="section-title">Контакты</h2>
+                
+                <div class="contact-info">
+                    <p class="contact-item">Адрес электронной почты: zhukovmaksik@mail.ru</p>
+                    <p class="contact-item">Адрес: г. Москва, ул. Гагарина</p>
+                    
+                    <button class="contact-button" onclick="alert('Ошибка')">Позвоните мне</button>
                 </div>
-            </div>
-        </div>
-    </div>
+            </section>
+        </main>
 
-    <div class="footer">Футер</div>
+        <footer class="footer">
+            <p>Футер</p>
+        </footer>
+    </div>
 </body>
 
 </html>
